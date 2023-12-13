@@ -45,17 +45,17 @@
 	"locale": "ru_RU.UTF-8",
         "format": "{:%H:%M}",
         "tooltip-format": "<big>{:%Y}</big>\n<tt><span size='9pt' font='jet brains mono nerd font'>{calendar}</span></tt>",
-	"calendar": {
-	    "mode": "year",
-	    "mode-mon-col": 3,
-	    "weeks-pos": "right",
-	    "format": {
-                "months": "<span color='#ffead3'><b>{}</b></span>",
-                "days": "<span color='#ecc6d9'><b>{}</b></span>",
-                "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
-                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
-                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
-            }
-	}
+        "calendar": {
+            "mode": "year",
+            "mode-mon-col": 3,
+            "weeks-pos": "right",
+            "format": {
+                    "months": "<span color='#ffead3'><b>{}</b></span>",
+                    "days": "<span color='#ecc6d9'><b>{}</b></span>",
+                    "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+                    "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                    "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+                }
+        }
     }
 }
