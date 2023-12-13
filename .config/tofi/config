@@ -1,0 +1,13 @@
+width = 50%
+height = 30%
+corner-radius = 10
+num-results = 6
+prompt-text = ""
+font = jet brains mono nerd font
+font-size = 26
+outline-width = 0
+border-width = 0
+padding-left = 50 
+padding-top = 25 
+padding-right = 50 
+padding-bottom = 0 
