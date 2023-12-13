@@ -1,16 +1,18 @@
 sort=-time
 layer=overlay
-background-color=#2e3440
-width=400
-height=110
-border-size=2
-border-color=#88c0d0
+background-color=#1e1e2e
+width=320
+height=200
+border-size=0
+border-color=#333333
 border-radius=4
-icons=0
+icons=1
 max-icon-size=64
-default-timeout=5000
+default-timeout=15000
 ignore-timeout=1
-font=jet brains mono nerd font 10
+markup=1
+actions=1
+font=jet brains mono nerd font 8
 
 [urgency=low]
 border-color=#cccccc
