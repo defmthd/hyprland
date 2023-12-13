@@ -7,71 +7,35 @@
     min-height: 0;
 }
 
+#window {
+    border-radius: 4px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 window#waybar {
     background: rgba(21, 18, 27, 0);
-    color: #cdd6f4;
+    color: #ffffff;
 }
 
 tooltip {
     background: #1e1e2e;
     border-radius: 4px;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
-    border-color: #11111b;
-}
-
-#workspaces button {
-    padding: 5px;
-    color: #313244;
-    margin-right: 5px;
-}
-
-#workspaces button.active {
-    color: #a6adc8;
-}
-
-#workspaces button.focused {
-    color: #a6adc8;
-    background: #eba0ac;
-    border-radius: 4px;
-}
-
-#workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
-    border-radius: 4px;
-}
-
-#workspaces button:hover {
-    background: #11111b;
-    color: #cdd6f4;
-    border-radius: 4px;
+    border-color: #333;
 }
 
 #window,
 #clock,
-#pulseaudio,
-#network,
-#bluetooth,
-#temperature,
 #workspaces,
-#tray,
-#backlight {
+#tray {
     background: #1e1e2e;
-    opacity: 0.6;
+    opacity: 0.8;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 10px;
-    border: 1px solid #181825;
-}
-
-#clock {
-    border-radius: 4px;
-}
-
-#tray {
-    border-radius: 4px;
-    margin-right: 10px;
+    border: 1px solid #333;
 }
 
 #workspaces {
@@ -82,31 +46,39 @@ tooltip {
     padding-left: 5px;
 }
 
-#custom-power_profile {
-    color: #a6e3a1;
-    border-left: 0px;
-    border-right: 0px;
+#workspaces button {
+    padding: 5px;
+    color: #313244;
+    margin-right: 5px;
 }
 
-#window {
+#workspaces button.active {
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+    background-color: #eba0ac;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #a6e3a1;
+}
+
+#workspaces button:hover {
+    background: #1e1e2e;
+    color: #ffffff;
+}
+
+#tray {
     border-radius: 4px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 10px;
 }
 
 #clock {
-    color: #fab387;
+    color: #fff;
     border-radius: 4px;
     margin-left: 0px;
     margin-right: 10px;
-    border-right: 0px;
 }
-
-#network {
-    color: #f9e2af;
-    border-radius: 4px;
-    border-left: 0px;
-    border-right: 0px;
-    margin-right: 10px;
-}
-
