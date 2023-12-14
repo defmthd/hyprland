@@ -16,6 +16,13 @@
     "hyprland/workspaces": {
         "active-only": false
     },
+
+    "hyprland/window": {
+        "rewrite": {
+            "(.*) - Google Chrome": "🌎 $1"
+        },
+        "separate-outputs": true
+    },
     
     "tray": {
         "icon-size": 18,
@@ -28,7 +35,7 @@
         "tooltip-format": "<big>{:%Y}</big>\n<tt><span size='6pt' font='jet brains mono nerd font'>{calendar}</span></tt>",
         "calendar": {
             "mode": "year",
-            "mode-mon-col": 2,
+            "mode-mon-col": 3,
             "weeks-pos": "right",
             "format": {
                 "months": "<span color='#ffead3'><b>{}</b></span>",
