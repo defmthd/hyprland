@@ -25,24 +25,33 @@ window#waybar {
 #workspaces {
     background: #1e1e2e;
     margin-left: 10px;
+    padding: 0px 6px;
 }
 
 #workspaces button {
     color: #666;
     border-radius: 0px;
-    margin: 0px 2px;
+    margin: 4px 2px;
 }
 
 #workspaces button:hover {
-    color: #ffffff;
-    background: #1e1e2e;
+    color: #1e1e2e;
+    background: #ffffff;
     box-shadow: inherit;
     text-shadow: inherit;
+    transition: none;
+    border-radius: 40px;
 }
 
 #workspaces button.active {
-    color: #ffffff;
-    background: #1e1e2e;
+    color: #1e1e2e;
+    background: #ffffff;
+    border-radius: 40px;
+}
+
+#workspaces button.active:hover {
+    color: #1e1e2e;
+    background: #ffffff;
 }
 
 #workspaces button.focused {
