@@ -12,6 +12,11 @@ window#waybar {
     color: #fff;
 }
 
+tooltip {
+    color: #000;
+    background: linear-gradient(45deg, #9198e5, #e66465);
+}
+
 #workspaces,
 #window,
 #tray,

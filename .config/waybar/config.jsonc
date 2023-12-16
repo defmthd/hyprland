@@ -32,7 +32,7 @@
     "clock": {
         "locale": "ru_RU.UTF-8",
         "format": "{:%H:%M}",
-        "tooltip-format": "<big>{:%Y}</big>\n<tt><span size='6pt' font='jet brains mono nerd font'>{calendar}</span></tt>",
+        "tooltip-format": "<big>{:%Y}</big>\n<tt><span size='8pt' font='jet brains mono nerd font'>{calendar}</span></tt>",
         "calendar": {
             "mode": "year",
             "mode-mon-col": 3,
