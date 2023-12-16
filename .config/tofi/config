@@ -1,13 +1,17 @@
 width = 50%
-height = 30%
-corner-radius = 10
+height = 50%
 num-results = 6
-prompt-text = ""
+prompt-text = "~> "
 font = jet brains mono nerd font
-font-size = 26
+font-size = 54
 outline-width = 0
 border-width = 0
-padding-left = 50 
-padding-top = 25 
-padding-right = 50 
-padding-bottom = 0 
+padding-left = 60 
+padding-top = 20
+padding-right = 0
+padding-bottom = 0
+
+background-color = #00000000
+text-color = #fff
+selection-color = #9198e5
+selection-match-color = #e66465
