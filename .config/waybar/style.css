@@ -35,7 +35,7 @@ tooltip {
 
 #workspaces button {
     color: #666;
-    border-radius: 0px;
+    border-radius: 4px;
     margin: 4px 4px;
     padding: 0px 8px;
 }
@@ -55,7 +55,6 @@ tooltip {
     background: linear-gradient(45deg, #e66465, #9198e5);
     transition: color 0.4s 0.01s;
     transition: background 0.4s 0.01s;
-    border-radius: 4px;
 }
 
 #workspaces button.active:hover {
@@ -64,13 +63,13 @@ tooltip {
 }
 
 #workspaces button.focused {
-    color: #a6adc8;
-    background: #eba0ac;
+    color: #666;
+    background: linear-gradient(45deg, #9198e5, #a6e3a1);
 }
 
 #workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
+    color: #666;
+    background: linear-gradient(45deg, #9198e5, #a6e3a1);
 }
 
 #window {
