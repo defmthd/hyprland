@@ -28,13 +28,13 @@ tooltip {
 }
 
 #workspaces {
-    background: #1e1e2e;
+    background: linear-gradient(45deg, #000, #666);
     margin-left: 10px;
     padding: 0px 0px;
 }
 
 #workspaces button {
-    color: #666;
+    color: #aaa;
     border-radius: 4px;
     margin: 4px 4px;
     padding: 0px 8px;
