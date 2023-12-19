@@ -66,7 +66,8 @@ default_packages=(
     xfce4-settings
     nwg-look-bin
 
-    ttf-jetbrains-mono-nerd 
+    ttf-jetbrains-mono-nerd
+    ttf-anonymouspro-nerd
     ttf-font-awesome
     noto-fonts-emoji
 
