@@ -18,6 +18,9 @@ default_packages=(
     xdg-desktop-portal-hyprland
 
     python-requests
+
+    zathura
+    zathura-pdf-mupdf
     
     pipewire
     wireplumber
@@ -49,13 +52,14 @@ default_packages=(
 
     kitty
     tmux
+    zellij
     neovim
 
     jq
     ansible
-    aws-cli
     terraform
     packer
+    aws-cli
 
     thunar
     thunar-archive-plugin
