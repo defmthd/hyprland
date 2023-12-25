@@ -73,6 +73,7 @@ default_packages=(
     ttf-jetbrains-mono-nerd
     ttf-anonymouspro-nerd
     ttf-fantasque-nerd
+    ttf-iosevka-nerd
     ttf-font-awesome
     noto-fonts-emoji
 
