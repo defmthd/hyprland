@@ -54,6 +54,7 @@ default_packages=(
     tmux
     zellij
     neovim
+    fzf
 
     jq
     ansible
@@ -65,6 +66,7 @@ default_packages=(
     thunar-archive-plugin
     file-roller
     papirus-icon-theme
+    layan-cursor-theme-git
 
     lxappearance
     xfce4-settings
@@ -135,6 +137,7 @@ rm -rf ~/.config/tofi
 rm -rf ~/.config/wofi
 rm -rf ~/.config/swaylock
 rm -rf ~/.config/kitty
+rm -rf ~/.config/zellij
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
 
