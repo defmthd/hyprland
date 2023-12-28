@@ -18,8 +18,6 @@ default_packages=(
     hyprland
     xdg-desktop-portal-hyprland
 
-    python-requests
-
     zathura
     zathura-pdf-mupdf
     
@@ -62,6 +60,8 @@ default_packages=(
     terraform
     packer
     aws-cli
+    rbenv
+    ruby-build
 
     thunar
     thunar-archive-plugin
@@ -82,10 +82,13 @@ default_packages=(
 
     google-chrome
     telegram-desktop
+    slack-desktop
     github-desktop-bin
     visual-studio-code-bin
+    docker-desktop
     dbeaver
     redisinsight
+
     xpadneo-dkms
     vlc
 )
