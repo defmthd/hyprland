@@ -36,6 +36,7 @@ default_packages=(
     wofi
     tofi
     swww
+    swaylock
     swaylock-effects
     wlogout
 
