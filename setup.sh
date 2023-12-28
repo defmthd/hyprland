@@ -15,6 +15,7 @@ default_packages=(
     qt5-graphicaleffects
     gtk3
     polkit-gnome
+    hyprland
     xdg-desktop-portal-hyprland
 
     python-requests
@@ -37,7 +38,6 @@ default_packages=(
     tofi
     swww
     swaylock
-    swaylock-effects
     wlogout
 
     wl-clipboard
