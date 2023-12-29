@@ -14,6 +14,14 @@
     },
  
     "hyprland/workspaces": {
+        "format": "{name} {icon}",
+        "format-icons": {
+            "1": "🪬",
+            "2": "🐙",
+            "3": "👩🏿‍💻",
+            "4": "🛠️",
+            "8": "🎮"
+        },
         "active-only": false
     },
 
