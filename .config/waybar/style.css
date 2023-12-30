@@ -19,6 +19,7 @@ tooltip {
 
 #workspaces,
 #window,
+#cpu,
 #tray,
 #clock {
     background: #1e1e2e;
@@ -75,6 +76,12 @@ tooltip {
 #window {
     border-radius: 4px;
     color: #fff;
+    padding: 0px 10px;
+    background: linear-gradient(45deg, #000, #666);
+}
+
+#cpu {
+    margin-right: 10px;
     padding: 0px 10px;
     background: linear-gradient(45deg, #000, #666);
 }
