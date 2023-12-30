@@ -111,10 +111,9 @@ show_progress() {
     while ps | grep $1 &> /dev/null;
     do
         echo -n "."
-        sleep 2
+        sleep 1
     done
     echo -en "Done!\n"
-    sleep 2
 }
 
 install_software() {
