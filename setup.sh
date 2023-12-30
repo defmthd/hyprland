@@ -90,6 +90,10 @@ default_packages=(
     redisinsight
 
     xpadneo-dkms
+
+    mpv
+    yt-dlp
+
     vlc
 )
 
@@ -144,5 +148,13 @@ rm -rf ~/.config/kitty
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
+rm -rf ~/.config/xsettingsd
+
+rm -rf ~/.icons/default
+
+rm -rf ~/.gtkrc-2.0
 
 stow -v -t ~/.config .config
+stow -v -t ~/.icons .icons
+
+ln -s "$(pwd)/.gtkrc-2.0" ~/.gtkrc-2.0
