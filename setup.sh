@@ -49,6 +49,8 @@ default_packages=(
     stow
     htop
 
+    pass
+
     kitty
     tmux
     zellij
@@ -60,6 +62,7 @@ default_packages=(
     terraform
     packer
     aws-cli
+
     rbenv
     ruby-build
 
