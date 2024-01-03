@@ -161,6 +161,7 @@ rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
 rm -rf ~/.config/xsettingsd
 rm -rf ~/.config/xfce4
+rm -rf ~/.config/nvim
 
 rm -rf ~/.icons/default
 
