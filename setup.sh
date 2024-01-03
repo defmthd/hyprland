@@ -55,8 +55,10 @@ default_packages=(
     tmux
     zellij
     mc
-    neovim
+    ranger
     fzf
+
+    neovim
 
     reflector
     rsync
@@ -152,6 +154,8 @@ rm -rf ~/.config/swaylock
 rm -rf ~/.config/kitty
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
+rm -rf ~/.config/ranger
+rm -rf ~/.config/joshuto
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
 rm -rf ~/.config/xsettingsd
