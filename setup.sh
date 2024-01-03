@@ -58,6 +58,8 @@ default_packages=(
     neovim
     fzf
 
+    reflector
+    rsync
     jq
     ansible
     terraform
