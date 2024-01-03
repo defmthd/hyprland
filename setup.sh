@@ -150,6 +150,7 @@ rm -rf ~/.config/waybar
 rm -rf ~/.config/tofi
 rm -rf ~/.config/wofi
 rm -rf ~/.config/swaylock
+rm -rf ~/.config/wlogout
 rm -rf ~/.config/htop
 rm -rf ~/.config/kitty
 rm -rf ~/.config/zellij
