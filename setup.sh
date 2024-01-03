@@ -102,8 +102,6 @@ default_packages=(
 
     mpv
     yt-dlp
-
-    vlc
 )
 
 # set some colors
