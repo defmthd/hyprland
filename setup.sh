@@ -56,6 +56,7 @@ default_packages=(
     zellij
     mc
     ranger
+    joshuto-bin
     fzf
 
     neovim
@@ -151,6 +152,7 @@ rm -rf ~/.config/waybar
 rm -rf ~/.config/tofi
 rm -rf ~/.config/wofi
 rm -rf ~/.config/swaylock
+rm -rf ~/.config/htop
 rm -rf ~/.config/kitty
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
@@ -159,6 +161,7 @@ rm -rf ~/.config/joshuto
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
 rm -rf ~/.config/xsettingsd
+rm -rf ~/.config/xfce4
 
 rm -rf ~/.icons/default
 
