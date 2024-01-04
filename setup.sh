@@ -47,6 +47,7 @@ default_packages=(
 
     zsh
     stow
+    bat
     htop
 
     pass
@@ -56,7 +57,6 @@ default_packages=(
     zellij
     mc
     ranger
-    joshuto-bin
     fzf
 
     neovim
