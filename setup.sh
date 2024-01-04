@@ -156,7 +156,6 @@ rm -rf ~/.config/kitty
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
 rm -rf ~/.config/ranger
-rm -rf ~/.config/joshuto
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
 rm -rf ~/.config/xsettingsd
