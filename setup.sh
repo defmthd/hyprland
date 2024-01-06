@@ -58,6 +58,7 @@ default_packages=(
     mc
     ranger
     fzf
+    ripgrep
 
     neovim
 
