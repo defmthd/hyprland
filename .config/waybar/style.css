@@ -1,6 +1,5 @@
 * {
     border: none;
-    border-radius: 4px;
     font-family: "AnonymicePro Nerd Font";
     font-size: 14px;
     font-weight: bold;
@@ -8,8 +7,9 @@
 }
 
 window#waybar {
-    background: rgba(21, 18, 27, 0);
+    background: #000;
     color: #fff;
+    border-bottom: 1px solid #222;
 }
 
 tooltip {
@@ -22,20 +22,16 @@ tooltip {
 #cpu,
 #tray,
 #clock {
-    background: #1e1e2e;
     opacity: 0.8;
-    margin-top: 10px;
-    border: 1px solid #333;
 }
 
 #workspaces {
-    background: linear-gradient(45deg, #000, #666);
     margin-left: 10px;
     padding: 0px 0px;
 }
 
 #workspaces button {
-    color: #aaa;
+    color: #444;
     border-radius: 4px;
     margin: 4px 4px;
     padding: 0px 8px;
@@ -43,24 +39,21 @@ tooltip {
 
 #workspaces button:hover {
     color: #fff;
-    background: linear-gradient(45deg, #e66465, #9198e5);
     box-shadow: inherit;
     text-shadow: inherit;
     transition: color 0.2s 0.01s;
     transition: background 0.2s 0.01s;
-    border-radius: 4px;
+    background: #000;
 }
 
 #workspaces button.active {
     color: #fff;
-    background: linear-gradient(45deg, #e66465, #9198e5);
     transition: color 0.4s 0.01s;
     transition: background 0.4s 0.01s;
 }
 
 #workspaces button.active:hover {
     color: #fff;
-    background: linear-gradient(45deg, #9198e5, #e66465);
 }
 
 #workspaces button.focused {
@@ -77,23 +70,19 @@ tooltip {
     border-radius: 4px;
     color: #fff;
     padding: 0px 10px;
-    background: linear-gradient(45deg, #000, #666);
 }
 
 #cpu {
     margin-right: 10px;
     padding: 0px 10px;
-    background: linear-gradient(45deg, #000, #666);
 }
 
 #tray {
     margin-right: 10px;
     padding: 0px 10px;
-    background: linear-gradient(45deg, #000, #666);
 }
 
 #clock {
     margin-right: 10px;
     padding: 0px 10px;
-    background: linear-gradient(45deg, #666, #000);
 }

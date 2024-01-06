@@ -8,7 +8,14 @@ return {
     -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
   },
   config = function()
-    vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', {})
-  end
+    require("neo-tree").setup({
+      filesystem = {
+        filtered_items = {
+          hide_dotfiles = false,
+          hide_hidden = false,
+        },
+      },
+    })
+    vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", {})
+  end,
 }
-
