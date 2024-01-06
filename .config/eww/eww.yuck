@@ -1,0 +1,43 @@
+(defwidget bar []
+    (centerbox :orientation "h"
+      (left)
+      (center)
+      (right)))
+
+(defwidget left []
+    (box :class "workspaces"
+         :orientation "h"
+         :space-evenly true
+         :halign "start"
+         :spacing 0
+        (button :onclick "time" 1)
+        (button :onclick "time" 2))
+    )
+
+(defwidget center []
+    "Center"
+    )
+
+(defwidget right []
+    (box :class "time"
+         :orientation "h"
+         :space-evenly false
+         :halign "end"
+        time)
+    )
+
+(defpoll time :interval "10s"
+    "date '+%H:%M %b %d, %Y'")
+
+(defwindow bar
+    :monitor 0
+    :windowtype "dock"
+    :geometry (geometry :x "0%"
+                        :y "0%"
+                        :width "100%"
+                        :height "10px"
+                        :anchor "top center")
+    :stacking "fg"
+    :reserve (struts :distance "20px" :side "top")
+    :wm-ignore false
+    (bar))
