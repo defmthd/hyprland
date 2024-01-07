@@ -1,20 +1,20 @@
 * {
-    border: none;
-    font-family: "AnonymicePro Nerd Font";
-    font-size: 14px;
-    font-weight: bold;
-    min-height: 0;
+  border: none;
+  font-family: "AnonymicePro Nerd Font";
+  font-size: 14px;
+  font-weight: bold;
+  min-height: 0;
 }
 
 window#waybar {
-    background: #000;
-    color: #fff;
-    border-bottom: 1px solid #222;
+  background: #000;
+  color: #fff;
+  border-bottom: 1px solid #222;
 }
 
 tooltip {
-    color: #000;
-    background: linear-gradient(45deg, #9198e5, #e66465);
+  color: #000;
+  background: linear-gradient(45deg, #9198e5, #e66465);
 }
 
 #workspaces,
@@ -22,67 +22,65 @@ tooltip {
 #cpu,
 #tray,
 #clock {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 #workspaces {
-    margin-left: 10px;
-    padding: 0px 0px;
+  margin-left: 20px;
+  padding: 0px 0px;
 }
 
 #workspaces button {
-    color: #444;
-    border-radius: 4px;
-    margin: 4px 4px;
-    padding: 0px 8px;
+  color: #777;
+  padding: 0px 8px;
 }
 
 #workspaces button:hover {
-    color: #fff;
-    box-shadow: inherit;
-    text-shadow: inherit;
-    transition: color 0.2s 0.01s;
-    transition: background 0.2s 0.01s;
-    background: #000;
+  color: #fff;
+  box-shadow: inherit;
+  text-shadow: inherit;
+  transition: color 0.2s 0.01s;
+  transition: background 0.2s 0.01s;
+  background: #000;
 }
 
 #workspaces button.active {
-    color: #fff;
-    transition: color 0.4s 0.01s;
-    transition: background 0.4s 0.01s;
+  color: #fff;
+  transition: color 0.4s 0.01s;
+  transition: background 0.4s 0.01s;
 }
 
 #workspaces button.active:hover {
-    color: #fff;
+  color: #fff;
 }
 
 #workspaces button.focused {
-    color: #fff;
-    background: linear-gradient(45deg, #9198e5, #a6e3a1);
+  color: #fff;
+  background: linear-gradient(45deg, #9198e5, #a6e3a1);
 }
 
 #workspaces button.urgent {
-    color: #fff;
-    background: linear-gradient(45deg, #9198e5, #a6e3a1);
+  color: #fff;
+  background: linear-gradient(45deg, #9198e5, #a6e3a1);
 }
 
 #window {
-    border-radius: 4px;
-    color: #fff;
-    padding: 0px 10px;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0px 10px;
 }
 
 #cpu {
-    margin-right: 10px;
-    padding: 0px 10px;
+  margin-right: 10px;
+  padding: 0px 10px;
 }
 
 #tray {
-    margin-right: 10px;
-    padding: 0px 10px;
+  margin-right: 10px;
+  padding: 0px 10px;
 }
 
 #clock {
-    margin-right: 10px;
-    padding: 0px 10px;
+  margin-right: 20px;
+  padding: 0px 10px;
 }
