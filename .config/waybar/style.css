@@ -39,9 +39,9 @@ tooltip {
   color: #fff;
   box-shadow: inherit;
   text-shadow: inherit;
+  background: black;
+  border-bottom: 1px solid #444;
   transition: color 0.2s 0.01s;
-  transition: background 0.2s 0.01s;
-  background: #000;
 }
 
 #workspaces button.active {
@@ -65,7 +65,6 @@ tooltip {
 }
 
 #window {
-  border-radius: 4px;
   color: #fff;
   padding: 0px 10px;
 }

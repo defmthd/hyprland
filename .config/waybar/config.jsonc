@@ -5,7 +5,7 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 30,
+    "height": 34,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["cpu", "tray","clock"],
