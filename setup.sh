@@ -91,9 +91,11 @@ default_packages=(
     ttf-font-awesome
     noto-fonts-emoji
 
+    jre-openjdk
+
     google-chrome
     telegram-desktop
-    slack-desktop
+    slack-desktop-wayland
     github-desktop-bin
     visual-studio-code-bin
     docker-desktop
