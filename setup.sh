@@ -50,6 +50,7 @@ default_packages=(
     stow
     bat
     htop
+    btop
 
     pass
 
