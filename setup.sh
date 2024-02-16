@@ -80,6 +80,7 @@ default_packages=(
     file-roller
     papirus-icon-theme
     layan-cursor-theme-git
+    mcmojave-cursors
 
     lxappearance
     xfce4-settings
