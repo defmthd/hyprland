@@ -56,12 +56,10 @@ tooltip {
 
 #workspaces button.focused {
   color: #fff;
-  background: linear-gradient(45deg, #9198e5, #a6e3a1);
 }
 
 #workspaces button.urgent {
   color: #fff;
-  background: linear-gradient(45deg, #9198e5, #a6e3a1);
 }
 
 #window {
