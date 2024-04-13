@@ -3,7 +3,7 @@ layer=overlay
 background-color=#1e1e2e
 width=400
 height=200
-padding=20
+padding=8
 border-size=1
 border-color=#444444
 border-radius=4
@@ -13,7 +13,7 @@ default-timeout=15000
 ignore-timeout=1
 markup=1
 actions=1
-font=AnonymicePro Nerd Font 11
+font=JetBrainsMono Nerd Font Mono 8
 
 [urgency=low]
 border-color=#444444
