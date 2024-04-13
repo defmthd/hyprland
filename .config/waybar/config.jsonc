@@ -5,7 +5,7 @@
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    "height": 34,
+    "height": 28,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["cpu", "tray","clock"],
@@ -39,14 +39,14 @@
     },
     
     "tray": {
-        "icon-size": 18,
-        "spacing": 10
+        "icon-size": 14,
+        "spacing": 8
     },
 
     "clock": {
         "locale": "ru_RU.UTF-8",
         "format": "{:%H:%M}",
-        "tooltip-format": "<big>{:%Y}</big>\n<tt><span size='8pt' font='AnonymicePro Nerd Font'>{calendar}</span></tt>",
+        "tooltip-format": "<big>{:%Y}</big>\n<tt><span size='6pt' font='JetBrainsMono Nerd Font Mono'>{calendar}</span></tt>",
         "calendar": {
             "mode": "year",
             "mode-mon-col": 3,

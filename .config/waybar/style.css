@@ -14,7 +14,10 @@ window#waybar {
 
 tooltip {
   color: #000;
-  background: linear-gradient(45deg, #9198e5, #e66465);
+  background: #777;
+  font-size: 6px;
+  padding: 4px;
+  margin: 2px;
 }
 
 #workspaces,
@@ -26,7 +29,7 @@ tooltip {
 }
 
 #workspaces {
-  margin-left: 20px;
+  margin-left: 8px;
   padding: 0px 0px;
 }
 
@@ -68,16 +71,16 @@ tooltip {
 }
 
 #cpu {
-  margin-right: 10px;
+  margin-right: 4px;
   padding: 0px 10px;
 }
 
 #tray {
-  margin-right: 10px;
-  padding: 0px 10px;
+  margin-right: 4px;
+  padding: 0px 4px;
 }
 
 #clock {
-  margin-right: 20px;
+  margin-right: 8px;
   padding: 0px 10px;
 }
