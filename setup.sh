@@ -77,6 +77,7 @@ default_packages=(
 
     thunar
     thunar-archive-plugin
+    thumbler
     file-roller
     papirus-icon-theme
     layan-cursor-theme-git
