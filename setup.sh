@@ -35,7 +35,6 @@ default_packages=(
     waybar
     wofi
     tofi
-    swww
     swaylock
     wlogout
 
@@ -103,7 +102,8 @@ default_packages=(
     visual-studio-code-bin
     docker-desktop
     dbeaver
-    redisinsight
+    #redisinsight
+    #swww
 
     xpadneo-dkms
 
