@@ -91,6 +91,7 @@ default_packages=(
     ttf-fantasque-nerd
     ttf-iosevka-nerd
     ttf-font-awesome
+    ttf-pt-root-ui
     noto-fonts-emoji
 
     jre-openjdk
