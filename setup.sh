@@ -104,12 +104,15 @@ default_packages=(
     docker-desktop
     dbeaver
     #redisinsight
-    #swww
+    swww
 
     xpadneo-dkms
 
     mpv
     yt-dlp
+
+    clight
+    zenbook-sound-fix-ux3405ma
 )
 
 # set some colors
