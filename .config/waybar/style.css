@@ -24,6 +24,7 @@ tooltip {
 #window,
 #cpu,
 #tray,
+#battery,
 #clock {
   opacity: 0.8;
 }
@@ -76,6 +77,11 @@ tooltip {
 }
 
 #tray {
+  margin-right: 4px;
+  padding: 0px 4px;
+}
+
+#battery {
   margin-right: 4px;
   padding: 0px 4px;
 }
