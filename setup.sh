@@ -111,7 +111,7 @@ default_packages=(
     mpv
     yt-dlp
 
-    clight
+    brightnessctl
     zenbook-sound-fix-ux3405ma
 )
 
