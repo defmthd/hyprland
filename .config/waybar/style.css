@@ -8,16 +8,18 @@
 
 window#waybar {
   background: #000;
+  opacity: 0.9;
   color: #fff;
   border-bottom: 1px solid #444;
 }
 
 tooltip {
   color: #000;
-  background: #777;
+  background: #444;
   font-size: 6px;
   padding: 4px;
   margin: 2px;
+  opacity: 0.9;
 }
 
 #workspaces,
@@ -26,7 +28,7 @@ tooltip {
 #tray,
 #battery,
 #clock {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #workspaces {
@@ -37,6 +39,7 @@ tooltip {
 #workspaces button {
   color: #777;
   padding: 0px 8px;
+  margin-bottom: 1px;
 }
 
 #workspaces button:hover {
@@ -44,14 +47,13 @@ tooltip {
   box-shadow: inherit;
   text-shadow: inherit;
   background: black;
-  border-bottom: 1px solid #444;
-  transition: color 0.2s 0.01s;
+  transition: color 0.0s 0.00s;
 }
 
 #workspaces button.active {
   color: #fff;
-  transition: color 0.4s 0.01s;
-  transition: background 0.4s 0.01s;
+  transition: color 0.0s 0.00s;
+  transition: background 0.0s 0.00s;
 }
 
 #workspaces button.active:hover {
