@@ -98,7 +98,7 @@ default_packages=(
 
     google-chrome
     telegram-desktop
-    slack-desktop-wayland
+    slack-desktop
     github-desktop-bin
     visual-studio-code-bin
     docker-desktop
