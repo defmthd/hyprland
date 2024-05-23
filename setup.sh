@@ -108,6 +108,13 @@ default_packages=(
     mpv
     yt-dlp
 
+    auto-cpufreq
+
+    wine-staging
+    wine-mono
+    wine-gecko
+    winetricks
+
     # brightnessctl
     # zenbook-sound-fix-ux3405ma
     # intel-media-driver
