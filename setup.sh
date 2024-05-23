@@ -87,9 +87,6 @@ default_packages=(
     nwg-look-bin
 
     ttf-jetbrains-mono-nerd
-    ttf-anonymouspro-nerd
-    ttf-fantasque-nerd
-    ttf-iosevka-nerd
     ttf-font-awesome
     ttf-pt-root-ui
     noto-fonts-emoji
