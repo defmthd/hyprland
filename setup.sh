@@ -103,7 +103,7 @@ default_packages=(
     visual-studio-code-bin
     docker-desktop
     dbeaver
-    #redisinsight
+    # redisinsight
     swww
 
     xpadneo-dkms
@@ -111,8 +111,9 @@ default_packages=(
     mpv
     yt-dlp
 
-    brightnessctl
-    zenbook-sound-fix-ux3405ma
+    # brightnessctl
+    # zenbook-sound-fix-ux3405ma
+    # intel-media-driver
 )
 
 # set some colors
