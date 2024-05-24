@@ -34,7 +34,6 @@ default_packages=(
     mako
     waybar
     wofi
-    tofi
     swaylock
     wlogout
 
@@ -57,7 +56,6 @@ default_packages=(
     tmux
     zellij
     mc
-    ranger
     fzf
     ripgrep
 
