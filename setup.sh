@@ -99,9 +99,12 @@ default_packages=(
     docker-desktop
     dbeaver
     # redisinsight
+    obsidian
+
     swww
 
     xpadneo-dkms
+    gamemode
 
     mpv
     yt-dlp
