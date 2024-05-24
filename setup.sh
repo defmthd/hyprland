@@ -179,6 +179,7 @@ rm -rf ~/.config/xsettingsd
 rm -rf ~/.config/xfce4
 rm -rf ~/.config/nvim
 
+mkdir -p ~/.icons
 rm -rf ~/.icons/default
 
 rm -rf ~/.gtkrc-2.0
