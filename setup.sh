@@ -113,6 +113,8 @@ default_packages=(
     wine-gecko
     winetricks
 
+    outline-client-appimage
+
     # brightnessctl
     # zenbook-sound-fix-ux3405ma
     # intel-media-driver
