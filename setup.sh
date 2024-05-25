@@ -34,6 +34,7 @@ default_packages=(
     mako
     waybar
     wofi
+    eww
     swaylock
     wlogout
 
@@ -166,6 +167,7 @@ done
 rm -rf ~/.config/hypr
 rm -rf ~/.config/waybar
 rm -rf ~/.config/wofi
+rm -rf ~/.config/eww
 rm -rf ~/.config/swaylock
 rm -rf ~/.config/wlogout
 rm -rf ~/.config/htop
