@@ -51,8 +51,6 @@ default_packages=(
     btop
     nvtop
 
-    pass
-
     kitty
     tmux
     zellij
@@ -167,8 +165,6 @@ done
 
 rm -rf ~/.config/hypr
 rm -rf ~/.config/waybar
-rm -rf ~/.config/eww
-rm -rf ~/.config/tofi
 rm -rf ~/.config/wofi
 rm -rf ~/.config/swaylock
 rm -rf ~/.config/wlogout
