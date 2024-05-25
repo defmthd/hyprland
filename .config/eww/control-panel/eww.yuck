@@ -1,0 +1,38 @@
+(defpoll current-volume :interval "0s" "zsh scripts/get-vol.sh")
+(defpoll current-volume-mic :interval "0s" "zsh scripts/get-vol-mic.sh")
+
+;; ============================================================
+;;                                       Control Panel Assembly
+;; ============================================================
+(defwidget control-panel []
+    (box :class "cp-main-box" :orientation "v" :space-evenly false :halign "end" :width 400 :height 180
+        "Volume"
+        (overlay
+            (scale
+                :value "${current-volume}"
+                :min 0
+                :max 101
+                :draw-value true 
+                :onchange "pactl set-sink-volume @DEFAULT_SINK@ {}%"
+            )
+            (label :text "Volume" :xalign 0.02 :yalign 0.72)
+        )
+        (overlay
+            (scale 
+                :value "${current-volume-mic}"
+                :min 0
+                :max 101
+                :draw-value true 
+                :onchange "pactl set-source-volume @DEFAULT_SOURCE@ {}%"
+            )
+            (label :text "Mic" :xalign 0.02 :yalign 0.72)
+        )
+    )
+)
+
+;; ============================================================
+;;                                                       Window
+;; ============================================================
+(defwindow control-panel :class "www" :geometry (geometry :x "78.65%" :y "1.01%" ) :monitor 0 :stacking "fg" :exclusive "true"
+    (control-panel)
+)

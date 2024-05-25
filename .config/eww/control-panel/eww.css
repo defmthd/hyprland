@@ -1,0 +1,36 @@
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font Mono";
+    font-size: 8pt;
+}
+
+.www {
+   all: unset;
+   background-color: aquamarine;
+}
+
+.cp-main-box {
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    padding: 20px;
+    opacity: 0.75;
+}
+
+scale through  {
+    border: 1px solid white;
+    color: blue;
+    background-color: aqua;
+    min-height: 20px;
+}
+
+scale highlight  {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    min-height: 30px;
+}
+
+.cp-main-box label {
+    color: black;
+}
