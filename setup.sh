@@ -176,7 +176,6 @@ rm -rf ~/.config/htop
 rm -rf ~/.config/kitty
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
-rm -rf ~/.config/ranger
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
 rm -rf ~/.config/xsettingsd
@@ -192,4 +191,3 @@ stow -v -t ~/.config .config
 stow -v -t ~/.icons .icons
 
 ln -s "$(pwd)/.gtkrc-2.0" ~/.gtkrc-2.0
-
