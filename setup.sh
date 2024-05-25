@@ -49,6 +49,7 @@ default_packages=(
     bat
     htop
     btop
+    nvtop
 
     pass
 
