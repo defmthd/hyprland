@@ -69,6 +69,10 @@ default_packages=(
     packer
     aws-cli
 
+    pass
+    browserpass-git
+    browserpass-chrome
+
     rbenv
     ruby-build
 
