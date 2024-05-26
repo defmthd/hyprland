@@ -70,7 +70,7 @@ default_packages=(
     aws-cli
 
     pass
-    browserpass-git
+    browserpass
     browserpass-chrome
 
     rbenv
