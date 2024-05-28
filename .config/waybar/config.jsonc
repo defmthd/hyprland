@@ -8,7 +8,7 @@
     "height": 28,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["cpu", "tray", "battery", "clock"],
+    "modules-right": ["cpu", "custom/control-panel", "tray", "battery", "clock"],
  
     "hyprland/workspaces": {
         "format": "{name} {icon}",
@@ -37,6 +37,12 @@
         "format": "CPU: {usage}%",
         "tooltip": false
     },
+
+    "custom/control-panel": {
+        "format": "🪩",
+        "tooltip": false,
+        "on-click": "sleep 0.2 && eww open --toggle control-panel -c ~/.config/eww/control-panel"
+    },
     
     "tray": {
         "icon-size": 14,
@@ -52,6 +58,7 @@
     "clock": {
         "locale": "ru_RU.UTF-8",
         "format": "{:%H:%M}",
+        "tooltip": false,
         "tooltip-format": "<big>{:%Y}</big>\n<tt><span size='6pt' font='JetBrainsMono Nerd Font Mono'>{calendar}</span></tt>",
         "calendar": {
             "mode": "year",

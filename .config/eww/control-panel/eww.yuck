@@ -5,7 +5,7 @@
 ;;                                       Control Panel Assembly
 ;; ============================================================
 (defwidget control-panel []
-    (box :class "cp-main-box" :orientation "v" :space-evenly false :halign "end" :width 400 :height 180
+    (box :class "cp-main-box" :orientation "v" :space-evenly false :halign "end" :width 340 :height 100
         "Volume"
         (overlay
             (scale
@@ -17,8 +17,10 @@
             )
             (label :text "Volume" :xalign 0.02 :yalign 0.72)
         )
+        (label)
+        "Mic"
         (overlay
-            (scale 
+            (scale
                 :value "${current-volume-mic}"
                 :min 0
                 :max 101
@@ -27,12 +29,17 @@
             )
             (label :text "Mic" :xalign 0.02 :yalign 0.72)
         )
+        (label)
+        (calendar :valign "center")
+        (label)
+        (label :text "Used mem: ${EWW_RAM.used_mem_perc}%")
+        (circular-progress :start-at 0 :value "${EWW_RAM.used_mem_perc}" :thickness 20)
     )
 )
 
 ;; ============================================================
 ;;                                                       Window
 ;; ============================================================
-(defwindow control-panel :class "www" :geometry (geometry :x "78.65%" :y "1.01%" ) :monitor 0 :stacking "fg" :exclusive "true"
+(defwindow control-panel :geometry (geometry :anchor "top right" :x "10" :y "10" ) :monitor 0 :stacking "fg" :exclusive "true"
     (control-panel)
 )

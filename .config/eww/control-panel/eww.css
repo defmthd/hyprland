@@ -4,11 +4,6 @@
     font-size: 8pt;
 }
 
-.www {
-   all: unset;
-   background-color: aquamarine;
-}
-
 .cp-main-box {
     background-color: black;
     border-radius: 6px;
@@ -31,6 +26,10 @@ scale highlight  {
     min-height: 30px;
 }
 
-.cp-main-box label {
+calendar {
+    margin-top: 100px;
+}
+
+.cp-main-box overlay label {
     color: black;
 }

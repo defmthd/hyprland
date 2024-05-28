@@ -25,6 +25,7 @@ tooltip {
 #workspaces,
 #window,
 #cpu,
+#custom-control-panel
 #tray,
 #battery,
 #clock {
@@ -74,6 +75,11 @@ tooltip {
 }
 
 #cpu {
+  margin-right: 4px;
+  padding: 0px 10px;
+}
+
+#custom-control-panel {
   margin-right: 4px;
   padding: 0px 10px;
 }
