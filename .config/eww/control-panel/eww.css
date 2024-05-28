@@ -10,6 +10,7 @@
     color: white;
     padding: 20px;
     border: 1px solid #444;
+    opacity: 0.6;
 }
 
 scale through  {
@@ -24,10 +25,6 @@ scale highlight  {
     border-radius: 8px;
     background-color: white;
     min-height: 30px;
-}
-
-calendar {
-    margin-top: 100px;
 }
 
 .cp-main-box overlay label {
