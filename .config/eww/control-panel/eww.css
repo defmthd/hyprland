@@ -10,7 +10,6 @@
     color: white;
     padding: 20px;
     border: 1px solid #444;
-    opacity: 0.6;
 }
 
 scale through  {
@@ -29,4 +28,30 @@ scale highlight  {
 
 .cp-main-box overlay label {
     color: black;
+}
+
+calender {
+    color: #bfc9db;
+}
+
+calendar:selected {
+    color: red;
+}
+
+calendar.header {
+    color: #a1bdce;
+    font-weight: bold;
+}
+
+calendar.button {
+    color: #c114f5;
+}
+
+calendar.highlight {
+    color: #0687d7;
+    font-weight: bold;
+}
+
+calendar:indeterminate {
+    color: #344;
 }

@@ -34,6 +34,8 @@
         (label)
         (label :text "Used mem: ${EWW_RAM.used_mem_perc}%")
         (circular-progress :start-at 0 :value "${EWW_RAM.used_mem_perc}" :thickness 20)
+        (label)
+        (systray :spacing 10 :halign "start" :icon-size 14)
     )
 )
 
