@@ -1,10 +1,11 @@
 * {
-    all: unset;
+    /* all: unset; */
 }
 
 .bar {
     opacity: 0.9;
     background-color: black;
+    color: white;
     font-family: "JetBrainsMono Nerd Font Mono";
     font-size: 8pt;
     padding: 0 10px;
