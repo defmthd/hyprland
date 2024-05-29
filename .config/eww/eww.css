@@ -1,7 +1,40 @@
 * {
     all: unset;
+}
+
+.bar {
+    opacity: 0.9;
     background-color: black;
     font-family: "JetBrainsMono Nerd Font Mono";
     font-size: 8pt;
-    opacity: 0.9;
+    padding: 0 10px;
+    border-bottom: 1px solid #444;
+}
+
+box.workspaces {
+    /* background-color: aqua; */
+}
+
+box.workspaces button {
+    /* background-color: red; */
+    padding: 0px 8px;
+}
+
+box.workspaces button.workspace-active {
+    background-color: red;
+    /* padding: 0px 8px; */
+}
+
+button.control-panel-button {
+    /* background-color: yellow; */
+    padding: 0px 8px;
+}
+
+.systray {
+    /* background-color: blue; */
+    padding: 0px 8px;
+}
+
+.current-time {
+    padding: 0px 8px;
 }

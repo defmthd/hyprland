@@ -16,6 +16,7 @@ default_packages=(
     gtk3
     polkit-gnome
     hyprland
+    hyprland-workspaces
     xdg-desktop-portal-hyprland
 
     zathura
