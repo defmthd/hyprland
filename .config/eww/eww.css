@@ -1,22 +1,26 @@
-* {
-    all: unset;
-}
-
 .bar {
-    opacity: 0.9;
-    background-color: black;
-    color: white;
     font-family: "JetBrainsMono Nerd Font Mono";
     font-size: 8pt;
+    background-color: black;
+    color: white;
     padding: 0 10px;
     border-bottom: 1px solid #444;
+    opacity: 0.9;
+}
+
+tooltip.background {
+    background-color: #0f0f17;
+    font-family: "JetBrainsMono Nerd Font Mono";
+    font-size: 8pt;
 }
 
 box.workspaces {
+    all: unset;
     /* background-color: aqua; */
 }
 
 box.workspaces button {
+    all: unset;
     /* background-color: red; */
     padding: 0px 12px;
 }
