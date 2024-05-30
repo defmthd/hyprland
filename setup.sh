@@ -73,7 +73,8 @@ default_packages=(
 
     pass
     browserpass
-    browserpass-chrome
+    # browserpass-chrome
+    browserpass-firefox
 
     rbenv
     ruby-build

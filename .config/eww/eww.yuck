@@ -32,7 +32,7 @@
           "${active-window-title}"
         )
         (box :class "right-column" :orientation "h" :halign "end" :space-evenly false
-          (button :class "control-panel-button" :timemout "10ms" :onclick "eww open --toggle control-panel -c ~/.config/eww/control-panel" :halign "end" :space-evenly false "Control Panel")
+          ; (button :class "control-panel-button" :timemout "10ms" :onclick "eww open --toggle control-panel -c ~/.config/eww/control-panel" :halign "end" :space-evenly false "Control Panel")
           (systray :class "systray" :spacing 8 :halign "end" :space-evenly false :icon-size 14)
           (label :class "current-time" :text "${current-time}")
         )

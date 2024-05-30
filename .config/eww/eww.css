@@ -22,7 +22,7 @@ box.workspaces button {
 }
 
 box.workspaces button.workspace-active {
-    background-color: red;
+    background-color: #444;
     /* padding: 0px 8px; */
 }
 
