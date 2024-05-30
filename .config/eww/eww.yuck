@@ -1,6 +1,7 @@
-(deflisten workspaces_data "hyprland-workspaces _")
+(deflisten workspaces-data "hyprland-workspaces _")
 
-(defpoll current_time :interval "1s" "date +\%H:\%M")
+(defpoll active-window-title :interval "1s" "hyprctl activewindow -j | jq '.title'")
+(defpoll current-time :interval "1s" "date +\%H:\%M")
 
 ;; ============================================================
 ;;                                                      Widgets
@@ -8,7 +9,7 @@
 (defwidget workspaces [monitor]
   (eventbox :onscroll "hyprctl dispatch workspace `echo {} | sed 's/up/+/\' | sed 's/down/-/'`1"
     (box :class "workspaces" :space-evenly false
-      (for i in {workspaces_data[monitor].workspaces}
+      (for i in {workspaces-data[monitor].workspaces}
         (button
           :onclick "hyprctl dispatch workspace ${i.id}"
           :class "${i.class}"
@@ -28,16 +29,16 @@
           (workspaces :monitor 0)
         )
         (box :class "center-column" :orientation "h"
-          "Window Title"
+          "${active-window-title}"
         )
         (box :class "right-column" :orientation "h" :halign "end" :space-evenly false
-          (button :class "control-panel-button" :onclick "sleep 0.1 && eww open --toggle control-panel -c ~/.config/eww/control-panel" :halign "end" :space-evenly false "⚙️")
+          (button :class "control-panel-button" :timemout "10ms" :onclick "eww open --toggle control-panel -c ~/.config/eww/control-panel" :halign "end" :space-evenly false "Control Panel")
           (systray :class "systray" :spacing 8 :halign "end" :space-evenly false :icon-size 14)
-          (label :class "current-time" :text "${current_time}")
+          (label :class "current-time" :text "${current-time}")
         )
     )
 )
 
-(defwindow bar :geometry (geometry :width "100%" :height "28px" :anchor "top center") :monitor 0 :stacking "fg" :windowtype "dock" :exclusive true
+(defwindow bar :geometry (geometry :width "100%" :height "32px" :anchor "top center") :monitor 0 :stacking "fg" :windowtype "dock" :exclusive true
     (bar)
 )

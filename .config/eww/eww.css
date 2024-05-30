@@ -1,5 +1,5 @@
 * {
-    /* all: unset; */
+    all: unset;
 }
 
 .bar {
@@ -18,7 +18,7 @@ box.workspaces {
 
 box.workspaces button {
     /* background-color: red; */
-    padding: 0px 8px;
+    padding: 0px 12px;
 }
 
 box.workspaces button.workspace-active {

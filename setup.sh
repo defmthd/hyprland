@@ -17,6 +17,7 @@ default_packages=(
     polkit-gnome
     hyprland
     hyprland-workspaces
+    hyprland-activewindow
     xdg-desktop-portal-hyprland
 
     zathura
@@ -96,7 +97,8 @@ default_packages=(
 
     jre-openjdk
 
-    google-chrome
+    # google-chrome
+    firefox
     telegram-desktop
     slack-desktop
     github-desktop-bin
