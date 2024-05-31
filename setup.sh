@@ -17,7 +17,7 @@ default_packages=(
     polkit-gnome
     hyprland
     hyprland-workspaces
-    hyprland-activewindow
+    hyprshade
     xdg-desktop-portal-hyprland
 
     zathura

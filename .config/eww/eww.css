@@ -35,6 +35,20 @@ button.control-panel-button {
     padding: 0px 8px;
 }
 
+.cpu {
+    color: #e0b089;
+    background-color: #38384d;
+    border-radius: 1px;
+    margin: 0 8px;
+}
+
+.mem {
+    color: #e0b089;
+    background-color: #38384d;
+    border-radius: 1px;
+    margin: 0 8px;
+}
+
 .systray {
     /* background-color: blue; */
     padding: 0px 8px;

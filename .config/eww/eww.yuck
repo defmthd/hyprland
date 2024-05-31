@@ -32,7 +32,12 @@
           "${active-window-title}"
         )
         (box :class "right-column" :orientation "h" :halign "end" :space-evenly false
-          (systray :class "systray" :spacing 8 :halign "end" :space-evenly false :icon-size 16)
+          "CPU"
+          (circular-progress :class "cpu" :start-at 0 :value "${EWW_CPU.avg}" :thickness 10)
+          "MEM"
+          (circular-progress :class "mem" :start-at 0 :value "${EWW_RAM.used_mem_perc}" :thickness 10)
+          ; "${EWW_NET}"
+          (systray :class "systray" :prepend-new true :spacing 8 :halign "end" :space-evenly false :icon-size 16)
           (label :class "current-time" :text "${current-time}")
         )
     )
