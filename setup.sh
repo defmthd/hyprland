@@ -32,6 +32,7 @@ default_packages=(
     blueman
     gvfs
     gvfs-smb
+    gvfs-mtp
 
     mako
     waybar
