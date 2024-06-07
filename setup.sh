@@ -184,6 +184,7 @@ rm -rf ~/.config/gtk-3.0
 rm -rf ~/.config/xsettingsd
 rm -rf ~/.config/xfce4
 rm -rf ~/.config/nvim
+rm -rf ~/.config/fontconfig
 
 mkdir -p ~/.icons
 rm -rf ~/.icons/default
