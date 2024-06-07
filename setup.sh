@@ -74,7 +74,6 @@ default_packages=(
 
     pass
     browserpass
-    # browserpass-chrome
     browserpass-firefox
 
     rbenv
@@ -85,8 +84,6 @@ default_packages=(
     tumbler
     file-roller
     papirus-icon-theme
-    layan-cursor-theme-git
-    mcmojave-cursors
 
     lxappearance
     xfce4-settings
@@ -99,7 +96,6 @@ default_packages=(
 
     jre-openjdk
 
-    # google-chrome
     firefox
     telegram-desktop
     slack-desktop
@@ -125,7 +121,7 @@ default_packages=(
     wine-gecko
     winetricks
 
-    outline-client-appimage
+    # outline-client-appimage
 
     # brightnessctl
     # zenbook-sound-fix-ux3405ma
