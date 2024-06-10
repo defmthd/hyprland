@@ -177,6 +177,7 @@ rm -rf ~/.config/swaylock
 rm -rf ~/.config/wlogout
 rm -rf ~/.config/htop
 rm -rf ~/.config/kitty
+rm -rf ~/.config/wezterm
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
 rm -rf ~/.config/mako
