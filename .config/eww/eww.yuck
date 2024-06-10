@@ -1,7 +1,7 @@
 (deflisten workspaces-data "hyprland-workspaces _")
 
 (defpoll active-window-title :interval "1s" "hyprctl activewindow -j | jq '.title'")
-(defpoll current-time :interval "1s" "date +\%H:\%M")
+(defpoll current-time :interval "1s" "date +\%d.\%m' — '\%H:\%M")
 
 ;; ============================================================
 ;;                                                      Widgets

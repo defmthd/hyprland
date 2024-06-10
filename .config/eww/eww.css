@@ -1,11 +1,11 @@
 .bar {
-    font-family: "Input Mono";
+    font-family: "Input Mono Narrow";
     font-size: 8pt;
     background-color: black;
     color: white;
     padding: 0 10px;
     border-bottom: 1px solid #444;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 tooltip.background {
