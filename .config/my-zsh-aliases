@@ -1,1 +1,4 @@
+eval "$(zoxide init zsh)"
+
 alias vim="nvim"
+alias cd="z"

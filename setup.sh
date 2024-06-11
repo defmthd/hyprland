@@ -61,6 +61,7 @@ default_packages=(
     mc
     fzf
     ripgrep
+    zoxide
 
     neovim
 
