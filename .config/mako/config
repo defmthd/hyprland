@@ -13,7 +13,7 @@ default-timeout=15000
 ignore-timeout=1
 markup=1
 actions=1
-font=JetBrainsMono Nerd Font Mono 8
+font=Input Mono Narrow 10
 
 [urgency=low]
 border-color=#444444
