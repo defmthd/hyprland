@@ -12,6 +12,15 @@ config.enable_wayland = false
 
 config.font = wezterm.font('Input Mono')
 config.font_size = 12.0
+
+config.keys = {
+  {
+    key = 'v',
+    mods = 'CTRL',
+    action = wezterm.action.PasteFrom 'Clipboard'
+  },
+}
+
 -- and finally, return the configuration to wezterm
 return config
 
