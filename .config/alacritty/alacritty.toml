@@ -1,0 +1,8 @@
+[window]
+padding.x = 10
+padding.y = 8
+decorations = "Full"
+opacity = 0.98
+
+[font]
+size = 8.0
