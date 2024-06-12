@@ -18,6 +18,8 @@ default_packages=(
     hyprland
     hyprland-workspaces
     hyprshade
+    hypridle
+    hyprlock
     xdg-desktop-portal-hyprland
 
     zathura
