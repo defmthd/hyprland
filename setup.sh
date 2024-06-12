@@ -58,7 +58,7 @@ default_packages=(
     nvtop
 
     kitty
-    wezterm-git
+    #wezterm-git
     alacritty
     
     tmux
