@@ -56,8 +56,12 @@ default_packages=(
     nvtop
 
     kitty
+    wezterm-git
+    alacritty
+    
     tmux
     zellij
+    
     mc
     fzf
     ripgrep
