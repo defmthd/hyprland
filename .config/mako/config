@@ -1,8 +1,8 @@
 sort=-time
 layer=overlay
-background-color=#1e1e2e
-width=300
-height=150
+background-color=#000000
+width=400
+height=180
 padding=8
 border-size=1
 border-color=#444444
@@ -13,7 +13,8 @@ default-timeout=15000
 ignore-timeout=1
 markup=1
 actions=1
-font=Input Mono Narrow 10
+font=Input Mono Narrow 8
+anchor=top-center
 
 [urgency=low]
 border-color=#444444
