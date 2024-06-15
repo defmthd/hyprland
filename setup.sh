@@ -108,7 +108,7 @@ default_packages=(
     slack-desktop
     github-desktop-bin
     visual-studio-code-bin
-    docker-desktop
+    # docker-desktop
     dbeaver
     # redisinsight
     obsidian
@@ -184,11 +184,14 @@ rm -rf ~/.config/swaylock
 rm -rf ~/.config/wlogout
 rm -rf ~/.config/htop
 rm -rf ~/.config/kitty
+rm -rf ~/.config/alacritty
 rm -rf ~/.config/wezterm
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
+rm -rf ~/.config/ranger
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
+rm -rf ~/.config/qt6ct
 rm -rf ~/.config/xsettingsd
 rm -rf ~/.config/xfce4
 rm -rf ~/.config/nvim
