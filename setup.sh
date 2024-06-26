@@ -58,7 +58,6 @@ default_packages=(
     nvtop
 
     kitty
-    #wezterm-git
     alacritty
     
     tmux
@@ -117,6 +116,7 @@ default_packages=(
 
     xpadneo-dkms
     gamemode
+    mangohud
 
     mpv
     yt-dlp
@@ -127,6 +127,10 @@ default_packages=(
     wine-mono
     wine-gecko
     winetricks
+
+    flameshot-git
+    pinta
+    xournalpp
 
     # outline-client-appimage
 
@@ -185,10 +189,8 @@ rm -rf ~/.config/wlogout
 rm -rf ~/.config/htop
 rm -rf ~/.config/kitty
 rm -rf ~/.config/alacritty
-rm -rf ~/.config/wezterm
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
-rm -rf ~/.config/ranger
 rm -rf ~/.config/mako
 rm -rf ~/.config/gtk-3.0
 rm -rf ~/.config/qt6ct
