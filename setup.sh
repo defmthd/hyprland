@@ -90,12 +90,14 @@ default_packages=(
     tumbler
     file-roller
     papirus-icon-theme
+    dolphin-git
 
     lxappearance
     xfce4-settings
     nwg-look-bin
 
     ttf-jetbrains-mono-nerd
+    ttf-fantasque-nerd
     ttf-font-awesome
     ttf-pt-root-ui
     noto-fonts-emoji
