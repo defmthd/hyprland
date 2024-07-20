@@ -35,9 +35,9 @@
           ; "BAT"
           ; (circular-progress :class "bat" :start-at 0 :value "${EWW_BATTERY.BAT0.capacity}" :thickness 8)
           "CPU"
-          (circular-progress :class "cpu" :start-at 0 :value "${EWW_CPU.avg}" :thickness 10)
+          (circular-progress :class "cpu" :start-at 0 :value "${EWW_CPU.avg}" :thickness 8)
           "MEM"
-          (circular-progress :class "mem" :start-at 0 :value "${EWW_RAM.used_mem_perc}" :thickness 10)
+          (circular-progress :class "mem" :start-at 0 :value "${EWW_RAM.used_mem_perc}" :thickness 8)
           (systray :class "systray" :prepend-new true :spacing 8 :halign "end" :space-evenly false :icon-size 16)
           (label :class "current-time" :text "${current-time}")
         )

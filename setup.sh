@@ -90,7 +90,6 @@ default_packages=(
     tumbler
     file-roller
     papirus-icon-theme
-    dolphin-git
 
     lxappearance
     xfce4-settings
