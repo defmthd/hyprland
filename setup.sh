@@ -80,7 +80,7 @@ default_packages=(
 
     pass
     browserpass
-    browserpass-firefox
+    # browserpass-firefox
 
     rbenv
     ruby-build
@@ -93,7 +93,7 @@ default_packages=(
 
     lxappearance
     xfce4-settings
-    nwg-look-bin
+    nwg-look
 
     ttf-jetbrains-mono-nerd
     ttf-fantasque-nerd
@@ -103,15 +103,16 @@ default_packages=(
 
     jre-openjdk
 
-    firefox
+    # firefox
+    google-chrome
     telegram-desktop
     slack-desktop
     github-desktop-bin
     visual-studio-code-bin
     # docker-desktop
-    dbeaver
+    # dbeaver
     # redisinsight
-    obsidian
+    # obsidian
 
     swww
 
@@ -122,7 +123,7 @@ default_packages=(
     mpv
     yt-dlp
 
-    auto-cpufreq
+    # auto-cpufreq
 
     wine-staging
     wine-mono
