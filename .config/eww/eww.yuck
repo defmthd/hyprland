@@ -3,6 +3,8 @@
 (defpoll active-window-title :interval "1s" "hyprctl activewindow -j | jq '.title'")
 (defpoll current-time :interval "1s" "date +\%d.\%m' — '\%H:\%M")
 
+(defpoll current-wg-downloaded :interval "2s" "zsh scripts/get-wg.sh")
+
 ;; ============================================================
 ;;                                                      Widgets
 ;; ============================================================
@@ -32,6 +34,11 @@
           "${active-window-title}"
         )
         (box :class "right-column" :orientation "h" :halign "end" :space-evenly false
+          (overlay
+            (button :class "set-wg" :width "14" :onclick "scripts/set-wg.sh")
+            "🚀"
+          )
+          (label :class "get-wg" :text "${current-wg-downloaded} ⦾")
           ; "BAT"
           ; (circular-progress :class "bat" :start-at 0 :value "${EWW_BATTERY.BAT0.capacity}" :thickness 8)
           "CPU"

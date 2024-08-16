@@ -61,6 +61,14 @@ button.control-panel-button {
     padding: 0px 8px;
 }
 
+.set-wg {
+    all: unset;
+}
+
+.get-wg {
+    padding: 0px 10px;
+}
+
 .current-time {
     padding: 0px 8px;
 }
