@@ -103,16 +103,15 @@ default_packages=(
 
     jre-openjdk
 
-    # firefox
     google-chrome
     telegram-desktop
     slack-desktop
     github-desktop-bin
     visual-studio-code-bin
-    # docker-desktop
-    # dbeaver
+    docker-desktop
+    dbeaver
     # redisinsight
-    # obsidian
+    obsidian
 
     swww
 
