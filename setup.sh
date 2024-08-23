@@ -110,7 +110,7 @@ default_packages=(
     # redisinsight
     obsidian
 
-    #swww
+    swww
 
     xpadneo-dkms
     gamemode
