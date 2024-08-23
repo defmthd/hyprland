@@ -18,8 +18,8 @@ button {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 25%;
-	font-family: "Input Mono";
-	font-size: 16pt;
+	font-family: "JetBrainsMono Nerd Font Mono";
+	font-size: 8pt;
 }
 
 button:focus, button:active, button:hover {

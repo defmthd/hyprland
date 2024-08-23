@@ -34,11 +34,11 @@
           "${active-window-title}"
         )
         (box :class "right-column" :orientation "h" :halign "end" :space-evenly false
-          (overlay
-            (button :class "set-wg" :width "14" :onclick "scripts/set-wg.sh")
-            "🚀"
-          )
-          (label :class "get-wg" :text "${current-wg-downloaded} ⦾")
+          ; (overlay
+          ;   (button :class "set-wg" :width "14" :onclick "scripts/set-wg.sh")
+          ;   "🚀"
+          ; )
+          ; (label :class "get-wg" :text "${current-wg-downloaded} ⦾")
           ; "BAT"
           ; (circular-progress :class "bat" :start-at 0 :value "${EWW_BATTERY.BAT0.capacity}" :thickness 8)
           "CPU"
@@ -54,6 +54,6 @@
 ;; ============================================================
 ;;                                                       Window
 ;; ============================================================
-(defwindow bar :geometry (geometry :width "100%" :height "32px" :anchor "top center") :monitor 0 :stacking "fg" :windowtype "dock" :exclusive true
+(defwindow bar :geometry (geometry :width "100%" :height "30px" :anchor "top center") :monitor 0 :stacking "fg" :windowtype "dock" :exclusive true
     (bar)
 )

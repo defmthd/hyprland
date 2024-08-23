@@ -58,7 +58,6 @@ default_packages=(
     nvtop
 
     kitty
-    alacritty
     
     tmux
     zellij
@@ -80,7 +79,6 @@ default_packages=(
 
     pass
     browserpass
-    # browserpass-firefox
 
     rbenv
     ruby-build
@@ -96,7 +94,6 @@ default_packages=(
     nwg-look
 
     ttf-jetbrains-mono-nerd
-    ttf-fantasque-nerd
     ttf-font-awesome
     ttf-pt-root-ui
     noto-fonts-emoji
@@ -113,7 +110,7 @@ default_packages=(
     # redisinsight
     obsidian
 
-    swww
+    #swww
 
     xpadneo-dkms
     gamemode
@@ -132,8 +129,6 @@ default_packages=(
     flameshot-git
     pinta
     xournalpp
-
-    # outline-client-appimage
 
     # brightnessctl
     # zenbook-sound-fix-ux3405ma
