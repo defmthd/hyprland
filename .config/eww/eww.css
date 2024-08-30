@@ -1,8 +1,8 @@
 .bar {
     font-family: "JetBrainsMono Nerd Font Mono";
     font-size: 8pt;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 0 10px;
     border-bottom: 1px solid #444;
     opacity: 0.85;
@@ -26,7 +26,7 @@ box.workspaces button {
 }
 
 box.workspaces button.workspace-active {
-    background-color: #444;
+    background-color: #ccc;
     /* padding: 0px 8px; */
 }
 

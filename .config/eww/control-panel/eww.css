@@ -1,14 +1,14 @@
 * {
     all: unset;
     font-family: "JetBrainsMono Nerd Font Mono";
-    font-size: 9pt;
-    opacity: 0.95;
+    font-size: 8pt;
+    opacity: 0.98;
 }
 
 .cp-main-box {
-    background-color: black;
+    background-color: white;
     border-radius: 6px;
-    color: white;
+    color: black;
     padding: 20px;
     border: 1px solid #444;
 }
@@ -21,9 +21,9 @@ scale through  {
 }
 
 scale highlight  {
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 8px;
-    background-color: white;
+    background-color: black;
     min-height: 30px;
 }
 
