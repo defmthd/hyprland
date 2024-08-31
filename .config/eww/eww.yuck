@@ -39,8 +39,6 @@
           ;   "🚀"
           ; )
           ; (label :class "get-wg" :text "${current-wg-downloaded} ⦾")
-          ; "BAT"
-          ; (circular-progress :class "bat" :start-at 0 :value "${EWW_BATTERY.BAT0.capacity}" :thickness 8)
           "CPU"
           (circular-progress :class "cpu" :start-at 0 :value "${EWW_CPU.avg}" :thickness 7)
           "MEM"
