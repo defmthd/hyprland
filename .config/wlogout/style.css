@@ -4,26 +4,26 @@
 }
 
 window {
-	background-color: rgba(12, 12, 12, 0.9);
+	background-color: white;
 }
 
 button {
     border-radius: 0;
-    border-color: black;
-	text-decoration-color: #FFFFFF;
-    color: #FFFFFF;
-	background-color: #1E1E1E;
+    border-color: #aaa;
+	text-decoration-color: black;
+    color: black;
+	background-color: white;
 	border-style: solid;
 	border-width: 1px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 25%;
-	font-family: "JetBrainsMono Nerd Font Mono";
+	font-family: "IBM Plex Mono";
 	font-size: 8pt;
 }
 
 button:focus, button:active, button:hover {
-	background-color: #3700B3;
+	background-color: #eee;
 	outline-style: none;
 }
 

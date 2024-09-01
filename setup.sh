@@ -96,6 +96,7 @@ default_packages=(
     ttf-jetbrains-mono-nerd
     ttf-font-awesome
     ttf-pt-root-ui
+    ttf-ibm-plex
     noto-fonts-emoji
 
     jre-openjdk

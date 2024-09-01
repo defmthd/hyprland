@@ -19,9 +19,9 @@ window {
   opacity: 0.9;
   border: 0px;
   border-radius: 6px;
-  font-family: "Input Mono";
+  font-family: "IBM Plex Mono";
   font-weight: bold;
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 #input {
