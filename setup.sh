@@ -127,6 +127,10 @@ default_packages=(
     flameshot-git
     pinta
     xournalpp
+
+    # plasma-desktop
+    # doplin
+    # kwin
 )
 
 # set some colors
@@ -198,3 +202,5 @@ stow -v -t ~/.config .config
 stow -v -t ~/.icons .icons
 
 ln -s "$(pwd)/.gtkrc-2.0" ~/.gtkrc-2.0
+
+# /usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland
