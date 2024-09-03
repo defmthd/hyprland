@@ -108,7 +108,6 @@ default_packages=(
     visual-studio-code-bin
     docker-desktop
     dbeaver
-    # redisinsight
     obsidian
 
     swww
@@ -120,8 +119,6 @@ default_packages=(
     mpv
     yt-dlp
 
-    # auto-cpufreq
-
     wine-staging
     wine-mono
     wine-gecko
@@ -130,10 +127,6 @@ default_packages=(
     flameshot-git
     pinta
     xournalpp
-
-    # brightnessctl
-    # zenbook-sound-fix-ux3405ma
-    # intel-media-driver
 )
 
 # set some colors
