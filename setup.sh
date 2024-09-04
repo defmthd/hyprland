@@ -15,15 +15,15 @@ default_packages=(
     qt5-graphicaleffects
     gtk3
     polkit-gnome
-    hyprland
-    hyprland-workspaces
-    hyprshade
-    hypridle
-    hyprlock
-    xdg-desktop-portal-hyprland
+    #hyprland
+    #hyprland-workspaces
+    #hyprshade
+    #hypridle
+    #hyprlock
+    #xdg-desktop-portal-hyprland
 
-    zathura
-    zathura-pdf-mupdf
+    #zathura
+    #zathura-pdf-mupdf
     
     pipewire
     wireplumber
@@ -32,23 +32,23 @@ default_packages=(
     bluez
     bluez-utils
     blueman
-    gvfs
-    gvfs-smb
-    gvfs-mtp
+    #gvfs
+    #gvfs-smb
+    #gvfs-mtp
 
-    mako
-    waybar
-    wofi
-    eww
-    swaylock
-    wlogout
+    #mako
+    #waybar
+    #wofi
+    #eww
+    #swaylock
+    #wlogout
 
-    wl-clipboard
-    cliphist
+    #wl-clipboard
+    #cliphist
 
-    swappy
-    grim
-    slurp
+    #swappy
+    #grim
+    #slurp
 
     zsh
     stow
@@ -83,19 +83,19 @@ default_packages=(
     rbenv
     ruby-build
 
-    thunar
-    thunar-archive-plugin
-    tumbler
-    file-roller
+    #thunar
+    #thunar-archive-plugin
+    #tumbler
+    #file-roller
     papirus-icon-theme
 
-    lxappearance
-    xfce4-settings
+    #lxappearance
+    #xfce4-settings
     nwg-look
 
     ttf-jetbrains-mono-nerd
     ttf-font-awesome
-    ttf-pt-root-ui
+    #ttf-pt-root-ui
     ttf-ibm-plex
     noto-fonts-emoji
 
@@ -110,7 +110,7 @@ default_packages=(
     dbeaver
     obsidian
 
-    swww
+    #swww
 
     xpadneo-dkms
     gamemode
@@ -130,7 +130,7 @@ default_packages=(
 
     # plasma-desktop
     # doplin
-    # kwin
+    # kwin 
 )
 
 # set some colors
@@ -174,15 +174,15 @@ for PACKAGE in ${default_packages[@]}; do
     install_software $PACKAGE 
 done
 
-rm -rf ~/.config/hypr
-rm -rf ~/.config/waybar
-rm -rf ~/.config/wofi
-rm -rf ~/.config/eww
-rm -rf ~/.config/swaylock
-rm -rf ~/.config/wlogout
+#rm -rf ~/.config/hypr
+#rm -rf ~/.config/waybar
+#rm -rf ~/.config/wofi
+#rm -rf ~/.config/eww
+#rm -rf ~/.config/swaylock
+#rm -rf ~/.config/wlogout
 rm -rf ~/.config/htop
 rm -rf ~/.config/kitty
-rm -rf ~/.config/alacritty
+#rm -rf ~/.config/alacritty
 rm -rf ~/.config/zellij
 rm -rf ~/.config/mc
 rm -rf ~/.config/mako
