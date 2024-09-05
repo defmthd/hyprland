@@ -6,15 +6,15 @@ default_packages=(
     base-devel
     linux-headers
 
-    qt5-wayland
-    qt5ct
-    qt6-wayland
-    qt6ct
-    qt5-svg
-    qt5-quickcontrols2
-    qt5-graphicaleffects
-    gtk3
-    polkit-gnome
+    #qt5-wayland
+    #qt5ct
+    #qt6-wayland
+    #qt6ct
+    #qt5-svg
+    #qt5-quickcontrols2
+    #qt5-graphicaleffects
+    #gtk3
+    #polkit-gnome
     #hyprland
     #hyprland-workspaces
     #hyprshade
@@ -25,9 +25,9 @@ default_packages=(
     #zathura
     #zathura-pdf-mupdf
     
-    pipewire
-    wireplumber
-    pamixer
+    #pipewire
+    #wireplumber
+    #pamixer
     pavucontrol
     bluez
     bluez-utils
@@ -55,7 +55,7 @@ default_packages=(
     bat
     htop
     btop
-    nvtop
+    #nvtop
 
     kitty
     
@@ -91,7 +91,7 @@ default_packages=(
 
     #lxappearance
     #xfce4-settings
-    nwg-look
+    #nwg-look
 
     ttf-jetbrains-mono-nerd
     ttf-font-awesome
@@ -127,10 +127,6 @@ default_packages=(
     flameshot-git
     pinta
     xournalpp
-
-    # plasma-desktop
-    # doplin
-    # kwin 
 )
 
 # set some colors
